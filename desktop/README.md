@@ -1,6 +1,6 @@
 # whatsapp - desktop
 
-## Electron 11 + TypeScript 4.0 + Vite 2 + React 17 + Tailwind 2 + twstyled starter
+## Electron 11 + TypeScript 4.0 + Vite 2 + React 17 + Tailwind 3+ twstyled
 
 this includes
 - [x] `Vite` for next generation frontend tooling
