@@ -1,10 +1,8 @@
-# Just a demo build electron todo project. 
+# whatsapp - desktop
 
 ## Electron 11 + TypeScript 4.0 + Vite 2 + React 17 + Tailwind 2 + twstyled starter
 
-![Electron + Vite + React Starter](https://github.com/twstyled/electron-vite-react/blob/main/public/screenshot.png)
-
-Blazing fast Electron starter including 
+this includes
 - [x] `Vite` for next generation frontend tooling
 - [x] `Typescript`
 - [x] `ESBuild` for building all assets including the main process
@@ -39,7 +37,3 @@ Add any configuration to the `build` section of `package.json`, add an `.env-sec
 # Prior art
 
 Inspired by https://github.com/appinteractive/electron-vite-tailwind-starter and https://github.com/maxstue/vite-reactts-electron-starter
-
-# License
-
-MIT
