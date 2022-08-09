@@ -4,13 +4,21 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex">
       <Head>
-        <title>whatsapp</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>WhatsApp</title>
+        <link rel="icon" href="https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png" />
       </Head>
-      <div>
-        web version of whatsapp
+      <div className="" >
+        <div>
+          home page
+        </div>
+        <div>
+            
+        </div>
+        <div>
+
+        </div>
       </div>
     </div>
   )
