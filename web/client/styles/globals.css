@@ -11,3 +11,14 @@
 }
 
 /* base styles */
+
+/* component styles */
+
+@layer components{
+  .navLinks{
+    @apply cursor-pointer;
+  }
+}
+
+/* component styles */
+

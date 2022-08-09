@@ -9,7 +9,7 @@ interface Props {
 function MainLayout({ children }: Props) {
     return (
         <div className="w-full min-h-screen flex flex-col justify-between">
-            <div className="sticky top-0 shadow-sm z-50 w-full bg-green h-24">
+            <div className="sticky top-0 shadow-sm z-50 w-full bg-green ">
                 <NavBar />
             </div>
             <div>
