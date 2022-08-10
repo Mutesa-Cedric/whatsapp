@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images:{
-    domains:['static.whatsapp.net']
+    domains:['static.whatsapp.net','scontent.whatsapp.net']
   }
 }
