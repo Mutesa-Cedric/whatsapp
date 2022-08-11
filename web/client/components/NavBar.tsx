@@ -23,7 +23,7 @@ function NavBar() {
                     <p className='navLinks'>security</p>
                 </Link>
                 <Link href="/security">
-                    <p className='navLinks'>help center</p>
+                    <p className='navLinks'>privacy</p>
                 </Link>
                 <button className="flex items-center space-x-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="white">
