@@ -16,7 +16,7 @@ function MainLayout({ children }: Props) {
             <div className="">
                 {children}
             </div>
-            <div className="bg-gray flex flex-col justify-between mt-10">
+            <div className="bg-gray flex flex-col justify-between">
                 <Footer />
                 <div className="bg-dark text-white flex justify-between items-center lg:px-40 pt-5 pb-8">
                     <div className="flex items-center space-x-1 text-lg">

@@ -114,7 +114,7 @@ const Home: NextPage = () => {
         </div>
         {/* ads */}
 
-        <div className="mx-auto my-12">
+        <div className="mx-auto mt-12 mb-20">
           <Link href={'/features'}>
             <button className="rounded-[28px] border-2 px-6 py-3 border-[#128c7e]/50 text-[#128c7e] text-lg uppercase">
               explore features

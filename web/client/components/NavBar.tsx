@@ -16,7 +16,7 @@ function NavBar() {
                 <Link href="/features">
                     <p className='navLinks'>features</p>
                 </Link>
-                <Link href="/web">
+                <Link href="/download">
                     <p className='navLinks'>download</p>
                 </Link>
                 <Link href="/security">
