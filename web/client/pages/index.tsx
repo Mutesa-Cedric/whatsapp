@@ -115,9 +115,11 @@ const Home: NextPage = () => {
         {/* ads */}
 
         <div className="mx-auto my-12">
-          <button className="rounded-[28px] border-2 px-6 py-3 border-[#128c7e]/50 text-[#128c7e] text-lg uppercase">
-            explore features
-          </button>
+          <Link href={'/features'}>
+            <button className="rounded-[28px] border-2 px-6 py-3 border-[#128c7e]/50 text-[#128c7e] text-lg uppercase">
+              explore features
+            </button>
+          </Link>
         </div>
       </div>
     </div>
