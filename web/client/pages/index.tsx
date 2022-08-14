@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import EncryptionAnimation from '../components/EncryptionAnimation'
 
 const downloadLinks: { name: string, link: string, svg: JSX.Element }[] = [
   {
@@ -97,9 +98,7 @@ const Home: NextPage = () => {
           </div>
           <div className='w-[47vw] bg-[#e7f0e4] h-[120vh] flex items-center  flex-col'>
             {/* encryption animation */}
-            <div className='rounded-full w-80 h-80 bg-[#77d7c8] mt-20 mb-20'>
-
-            </div>
+            <EncryptionAnimation />
             {/* encryption animation */}
             <div className="flex flex-col items-center space-y-4">
               <p className='text-[#5e5e5e] text-lg tracking-wide'>END-TO-END ENCRYPTION</p>

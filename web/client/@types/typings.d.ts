@@ -5,7 +5,16 @@ export type FooterLinks =
         {
             name: string,
             link: string,
-            external?:boolean
+            external?: boolean
         }[]
 
     }[]
+
+export interface SecurityFeatures {
+    title: string,
+    description: string,
+}
+
+export interface SecurityAds extends SecurityFeatures {
+    image: string
+}
