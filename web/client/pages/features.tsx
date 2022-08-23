@@ -14,7 +14,7 @@ function Features() {
         <title>WhatsApp Features</title>
         <link rel="icon" href="https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png" />
       </Head>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-6'>
+      <div className='grid h-full grid-cols-1 md:grid-cols-2 gap-4 px-6'>
         {/* left */}
         <div className='featuresContainer'>
           {featuresOnLeft.map(feature => (

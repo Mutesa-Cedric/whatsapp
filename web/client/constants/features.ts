@@ -74,7 +74,7 @@ export const features: Feature[] = [
         side:"right",
         imagePosition:"right",
         image:"web-and-desktop.png",
-        backgroundColor:"##f0f4f9",
+        backgroundColor:"#f0f4f9",
         height:"80vh"
     },
     {

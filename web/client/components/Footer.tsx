@@ -10,7 +10,7 @@ function Footer() {
             <h3 className="uppercase font-bold tracking-widest leading-[17px] text-[#f0f4f9]">{section.title}</h3>
             <div className={'flex flex-col'}>
               {section.links.map((link) => (
-                <Link href={link.link} key={i}>
+                <Link href={link.link} key={link.name}>
                   <p className="cursor-pointer text-lg hover:underline leading-[26px] font-[300]">{link.name}</p>
                 </Link>
               ))}

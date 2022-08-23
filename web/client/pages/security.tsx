@@ -24,18 +24,18 @@ function security() {
                 securityFeatures.map((feature, index) => (
                   index === 0 ? (
                     <div className="flex flex-col">
-                      <SecurityFeature key={index} {...feature} />
+                      <SecurityFeature key={feature.title} {...feature} />
                       <EncryptionAnimation />
                     </div>
                   ) :
-                    (<SecurityFeature key={index} {...feature} />)
+                    (<SecurityFeature key={feature.title} {...feature} />)
                 ))
               }
             </div>
             <div className="grid grid-cols-2 gap-24 pt-24">
               {
-                securityAds.map((ads, index) => (
-                  <SecurityAds key={index} {...ads} />
+                securityAds.map((ads) => (
+                  <SecurityAds key={ads.title} {...ads} />
                 ))
               }
             </div>
