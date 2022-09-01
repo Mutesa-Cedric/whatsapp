@@ -14,11 +14,13 @@
 
 /* component styles */
 
-@layer components{
-  .navLinks{
+@layer components {
+  .navLinks {
     @apply cursor-pointer;
+  }
+  .cardContainer {
+    @apply xl:w-[47vw] border border-blue-300  min-h-[120vh] flex items-center  flex-col;
   }
 }
 
 /* component styles */
-
