@@ -22,7 +22,7 @@ function NavBar() {
                 <Link href="/security">
                     <p className='navLinks'>security</p>
                 </Link>
-                <Link href="/security">
+                <Link href="/privacy">
                     <p className='navLinks'>privacy</p>
                 </Link>
                 <button className="flex items-center space-x-1">

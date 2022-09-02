@@ -18,8 +18,8 @@
   .navLinks {
     @apply cursor-pointer;
   }
-  .cardContainer {
-    @apply xl:w-[47vw] border border-blue-300  min-h-[120vh] flex items-center  flex-col;
+  .featuresContainer {
+    @apply xl:w-[47vw] border border-blue-300  min-h-[120vh] flex items-center  flex-col space-y-6;
   }
 }
 

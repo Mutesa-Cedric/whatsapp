@@ -14,7 +14,7 @@ function security() {
       </Head>
       <main className="flex flex-col">
         <div className='w-full h-[52vh] bg-center bg-cover bg-no-repeat'
-          style={{ backgroundImage: `url(https://z-p3-scontent.fkgl3-1.fna.fbcdn.net/v/t39.8562-6/217186020_771263430211888_7039309491108113142_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=myEmPnytyYkAX-KP93O&_nc_pt=5&_nc_ht=z-p3-scontent.fkgl3-1.fna&oh=00_AT_rxl4qJ8p9alQmReNOAFetwLutuA8eyrkyFjwGkVcBMA&oe=62FE4FB2)` }}>
+          style={{ backgroundImage: `url(/images/security-bg.png)`}}>
         </div>
         <div className="w-full bg-[#f0f4f9] h-auto">
           <div className="mx-auto bg-white w-3/4 px-40 pt-16 pb-40 space-y-4">

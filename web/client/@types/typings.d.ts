@@ -18,3 +18,23 @@ export interface SecurityFeatures {
 export interface SecurityAds extends SecurityFeatures {
     image: string
 }
+
+type ImageWithCaption={
+    caption:string,
+    url:string
+}
+
+
+export interface Feature{
+    name:string,
+    title:string,
+    image?:string|ImageWithCaption[],
+    description:string,
+    dataCharges?:boolean,
+    side:"left"|"right",
+    backgroundColor:string,
+    imagePosition?:"left"|"right"|"top"|"bottom"|"center",
+    height:string,
+    imageHeight?:number,
+    security?:boolean
+}
