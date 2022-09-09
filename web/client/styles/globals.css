@@ -19,7 +19,7 @@
     @apply cursor-pointer;
   }
   .featuresContainer {
-    @apply xl:w-[47vw] flex items-center  flex-col md:space-y-8 h-auto;
+    @apply lg:w-[47vw] flex items-center  flex-col md:space-y-8 h-auto;
   }
 }
 

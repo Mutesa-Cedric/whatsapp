@@ -10,7 +10,9 @@ export const features: Feature[] = [
         side: "left",
         backgroundColor: "#fcf2c6",
         imagePosition: "center",
-        height: "120vh",
+        height: "130vh",
+        imageHeight:700,
+        imageWidth:350,
     },
     {
         name: "WHATSAPP VOICE AND VIDEO CALLS",
@@ -21,7 +23,9 @@ export const features: Feature[] = [
         side: "left",
         backgroundColor: "#d8e8ea",
         imagePosition: "bottom",
-        height: "90vh"
+        height: "90vh",
+        imageHeight:270,
+        imageWidth:450,
     },
     {
         name: "PHOTOS AND VIDEOS",
@@ -31,7 +35,9 @@ export const features: Feature[] = [
         backgroundColor: "#fcf2c6",
         height: "95vh",
         imagePosition: "top",
-        side: "left"
+        side: "left",
+        imageHeight:350,
+        imageWidth:400,
     },
     {
         name: "DOCUMENTS",
@@ -41,7 +47,9 @@ export const features: Feature[] = [
         height: "80vh",
         side: "left",
         imagePosition: "bottom",
-        backgroundColor: "#fcf2c6"
+        backgroundColor: "#fcf2c6",
+        imageHeight:300,
+        imageWidth:350,
     },
     {
         name: "GROUP CHAT",
@@ -75,7 +83,9 @@ export const features: Feature[] = [
         imagePosition:"right",
         image:"web-and-desktop.png",
         backgroundColor:"#f0f4f9",
-        height:"80vh"
+        height:"85vh",
+        imageWidth:400,
+        imageHeight:300,
     },
     {
         name:"END-TO-END ENCRYPTION",
@@ -95,7 +105,9 @@ export const features: Feature[] = [
         side:"right",
         height:"75vh",
         imagePosition:"top",
-        backgroundColor:"#d8e8ea"
+        backgroundColor:"#d8e8ea",
+        imageHeight:250,
+        imageWidth:350,
     }
 ]
 
